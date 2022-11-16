@@ -99,19 +99,19 @@
 
 .app__social {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 
-  padding: 1rem;
+  padding: 1.2rem;
 
   div {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     background-color: var(--white-color);
-    margin: 0.25rem 0;
-    border: 1px solid var(--lightGray-color);
+    margin: 0.45rem 0.1rem;
+    border: 1px solid var(--secondary-color);
 
     display: flex;
     justify-content: center;
@@ -128,6 +128,7 @@
     &:hover {
       background-color: var(--secondary-color);
       border-color: var(--secondary-color);
+      cursor: pointer;
 
       svg {
         color: var(--white-color);
