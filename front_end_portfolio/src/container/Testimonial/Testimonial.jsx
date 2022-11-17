@@ -32,7 +32,9 @@ const Testimonial = () => {
     <>
       {testimonials.length && (
         <>
+          <h2 className="head-text"><span>Recommendation</span></h2><br /><br />
           <div className="app__testimonial-item app__flex">
+
             <img src={urlFor(testimonials[currentIndex].imgurl)} alt={testimonials[currentIndex].name} />
             <div className="app__testimonial-content">
               <p className="p-text">{testimonials[currentIndex].feedback}</p>
