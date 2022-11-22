@@ -31,13 +31,17 @@ const Navbar = () => {
             transition={{ duration: 0.85, ease: 'easeOut' }}
           >
             <HiX onClick={() => setToggle(false)} />
+            <img src={images.logo} alt="logo" style={{width:'50%',marginInlineEnd:'9rem',marginBottom:'1rem'}}/>
             <ul>
               {[ 'about', 'work', 'skills','Achievement', 'contact',].map((item) => (
+               
                 <li key={item}>
+                  
                   <a href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}
                   </a>
                 </li>
+                
               ))}
             </ul>
           </motion.div>
