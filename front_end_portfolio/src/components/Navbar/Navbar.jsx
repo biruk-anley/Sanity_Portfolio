@@ -6,6 +6,8 @@ import { images } from '../../constants';
 import './Navbar.scss';
 
 const Navbar = () => {
+
+  // manage toggle
   const [toggle, setToggle] = useState(false);
 
   return (
@@ -21,6 +23,8 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
+
+
 
       <div className="app__navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)} />
@@ -50,5 +54,7 @@ const Navbar = () => {
     </nav>
   );
 };
+
+
 
 export default Navbar;
