@@ -1,6 +1,8 @@
 import sanityClient from '@sanity/client';
 import imageUrlBuilder from '@sanity/image-url';
 
+
+// define sanity client
 export const client = sanityClient({
   projectId: "iks2njaq",
   dataset: 'production',
