@@ -18,7 +18,7 @@ const About = () => {
 
   return (
     <>
-      <h2 className="head-text">What I <span style={{textTransform:'lowercase'}}>am . . .</span></h2>
+      <h2 className="head-text">What I <span style={{textTransform:'lowercase'}}>am . . . .</span></h2>
 
       <div className="app__profiles">
         {abouts.map((about, index) => (
